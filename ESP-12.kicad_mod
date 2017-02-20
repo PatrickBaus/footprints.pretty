@@ -1,4 +1,4 @@
-(module ESP-12 (layer F.Cu) (tedit 58A9AE14)
+(module ESP-12 (layer F.Cu) (tedit 58AA52FC)
   (descr "ESP-8266, ESP-12x, 16 pad, SMD")
   (tags "Module ESP-8266 ESP8266")
   (fp_text reference REF** (at -0.015 13.98) (layer F.SilkS)
@@ -32,6 +32,7 @@
   (fp_line (start 8.25 -12.55) (end 9.25 -12.55) (layer F.CrtYd) (width 0.05))
   (fp_line (start -9.25 -12.55) (end 8.25 -12.55) (layer F.CrtYd) (width 0.05))
   (fp_line (start -9.25 -4.3) (end -9.25 -12.55) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -8.05 -4.6) (end -8.95 -4.6) (layer F.SilkS) (width 0.12))
   (pad 16 thru_hole rect (at 7 -3.8) (size 2.5 1.1) (drill 0.65 (offset 0.7 0)) (layers *.Cu *.Mask F.SilkS))
   (pad 15 thru_hole rect (at 7 -1.8) (size 2.5 1.1) (drill 0.65 (offset 0.7 0)) (layers *.Cu *.Mask F.SilkS))
   (pad 14 thru_hole rect (at 7 0.2) (size 2.5 1.1) (drill 0.65 (offset 0.7 0)) (layers *.Cu *.Mask F.SilkS))
