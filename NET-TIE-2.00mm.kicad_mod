@@ -1,0 +1,13 @@
+(module NET-TIE-2.00mm (layer F.Cu) (tedit 595C470F)
+  (descr "Net-tie used for Kelvin connections")
+  (tags "Kelvin Connection Net-tie")
+  (fp_text reference **REF (at -0.01 -2) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (fp_text value NET-TIE-2.00mm (at -0.01 1.77) (layer F.Fab) hide
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (fp_line (start -2 0) (end 2 0) (layer F.Cu) (width 2))
+  (pad 2 smd circle (at 2 0) (size 2 2) (layers F.Cu))
+  (pad 1 smd circle (at -2 0) (size 2 2) (layers F.Cu))
+)
