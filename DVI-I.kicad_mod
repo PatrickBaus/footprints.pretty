@@ -34,6 +34,7 @@
   (pad "" np_thru_hole circle (at 9.525 -1.93) (size 2 2) (drill 2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -9.525 -1.93) (size 2 2) (drill 2) (layers *.Cu *.Mask))
   (pad C5 thru_hole circle (at 8.255 -4.617) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
+  (pad C5 thru_hole circle (at 8.255 -9.697) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
   (pad C4 thru_hole circle (at 9.525 -5.887) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
   (pad C3 thru_hole circle (at 6.985 -5.887) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
   (pad C1 thru_hole circle (at 6.985 -8.427) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
