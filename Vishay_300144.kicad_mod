@@ -1,4 +1,4 @@
-(module Vishay_300144 (layer F.Cu) (tedit 59CC2AC7)
+(module Vishay_300144 (layer F.Cu) (tedit 5A502C68)
   (descr http://www.vishaypg.com/docs/63115/144Z145Z.pdf)
   (tags "precision divider")
   (fp_text reference REF** (at 3.2 -3.1) (layer F.SilkS)
@@ -21,7 +21,7 @@
   (fp_line (start 6.69 -1.65) (end 6.69 1.65) (layer F.CrtYd) (width 0.05))
   (fp_line (start 6.69 1.65) (end -1.61 1.65) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1.61 1.65) (end -1.61 -1.65) (layer F.CrtYd) (width 0.05))
-  (pad 1 thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
+  (pad 1 thru_hole rect (at 0 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.54 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 5.08 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/footprints.3dshapes/Vishay_300144.wrl
