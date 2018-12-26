@@ -1,4 +1,4 @@
-(module NET-TIE-0.15mm (layer F.Cu) (tedit 5960DFBA)
+(module NET-TIE-0.15mm (layer F.Cu) (tedit 5C2300C6)
   (descr "Net-tie used for Kelvin connections")
   (tags "Kelvin Connection Net-tie")
   (fp_text reference REF** (at 0 -1.5) (layer F.SilkS) hide
@@ -7,9 +7,7 @@
   (fp_text value NET-TIE-0.15mm (at 0 1.25) (layer F.Fab) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (fp_line (start 0 0) (end 0.4 0) (layer F.Cu) (width 0.15))
-  (pad 2 smd circle (at 0.4 0) (size 0.15 0.15) (layers F.Cu)
-    (solder_mask_margin 0.001) (clearance 0.001))
-  (pad 1 smd circle (at 0 0) (size 0.15 0.15) (layers F.Cu)
-    (solder_mask_margin 0.001) (clearance 0.001))
+  (fp_poly (pts (xy 0 -0.075) (xy 0.4 -0.075) (xy 0.4 0.075) (xy 0 0.075)) (layer F.Cu) (width 0))
+  (pad 2 smd circle (at 0.4 0) (size 0.15 0.15) (layers F.Cu))
+  (pad 1 smd circle (at 0 0) (size 0.15 0.15) (layers F.Cu))
 )
