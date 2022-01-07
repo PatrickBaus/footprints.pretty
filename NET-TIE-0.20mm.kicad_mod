@@ -1,13 +1,23 @@
-(module NET-TIE-0.20mm (layer F.Cu) (tedit 5C22FF7D)
+(footprint "NET-TIE-0.20mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61D8629E)
   (descr "Net-tie used for Kelvin connections")
-  (tags "Kelvin Connection Net-tie")
-  (fp_text reference REF** (at 0 -1.5) (layer F.SilkS) hide
+  (tags "net tie")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -1.5) (layer "F.SilkS") hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
+    (tstamp 10558b10-9c9d-4f58-aa30-6100586e6d56)
   )
-  (fp_text value NET-TIE-0.20mm (at 0 1.25) (layer F.Fab) hide
+  (fp_text value "NET-TIE-0.20mm" (at 0 1.25) (layer "F.Fab") hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
+    (tstamp f0613f1e-cc1e-4b44-9c55-5832dbcda176)
   )
-  (fp_poly (pts (xy 0 -0.1) (xy 0.4 -0.1) (xy 0.4 0.1) (xy 0 0.1)) (layer F.Cu) (width 0))
-  (pad 1 smd circle (at 0 0) (size 0.2 0.2) (layers F.Cu))
-  (pad 2 smd circle (at 0.4 0) (size 0.2 0.2) (layers F.Cu))
+  (fp_poly (pts
+      (xy 0 -0.1)
+      (xy 0.4 -0.1)
+      (xy 0.4 0.1)
+      (xy 0 0.1)
+    ) (layer "F.Cu") (width 0) (fill solid) (tstamp f022a7ae-27a9-4d94-9e47-71e5e88e3d10))
+  (pad "1" smd circle (at 0 0) (size 0.2 0.2) (layers "F.Cu") (tstamp 36b9aa68-09da-4ce4-a03a-701f368b8d05))
+  (pad "2" smd circle (at 0.4 0) (size 0.2 0.2) (layers "F.Cu") (tstamp 61adaf4b-4939-4bd2-94a9-a6b628d335f4))
 )
