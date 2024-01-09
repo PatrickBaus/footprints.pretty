@@ -3,7 +3,7 @@
   (descr "PowerPAK SO-8L Single (https://www.vishay.com/docs/79736/powerpak%208x8l%20bwl%20package%20outline%202.pdf, https://www.vishay.com/docs/63168/padpattern_powerpak_8x8l_bwl.pdf)")
   (tags "PowerPAK SO-8x8L_Single SOT-1235")
   (attr smd)
-  (fp_text reference "REF**" (at -0.08 -5.2) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -5.45) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 15fdfab1-9e29-487a-8794-3c97e109edd2)
   )
